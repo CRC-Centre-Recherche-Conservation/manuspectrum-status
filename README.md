@@ -1,117 +1,67 @@
-# [![Upptime](https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/logo.svg)](https://upptime.js.org)
+<p align="center">
+  <a href="https://manuspectrum.huma-num.fr/">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="./assets/logo-manuspectrum-dark.svg">
+      <img alt="ManuSpectrum" src="./assets/logo-manuspectrum-light.svg" width="460">
+    </picture>
+  </a>
+</p>
 
-<!--start: description-->
+<p align="center">
+  <strong>Status of <a href="https://manuspectrum.huma-num.fr/">manuspectrum.huma-num.fr</a></strong><br>
+  An independent probe, run from GitHub every hour, outside the server it watches.
+</p>
 
-**Upptime** (https://upptime.js.org) is the open-source uptime monitor and status page, powered entirely by GitHub Actions, Issues, and Pages, made with 💚 by [Anand Chowdhary](https://anandchowdhary.com).
+<p align="center">
+  <a href="https://crc-centre-recherche-conservation.github.io/manuspectrum-status/"><img alt="Website uptime" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FCRC-Centre-Recherche-Conservation%2Fmanuspectrum-status%2FHEAD%2Fapi%2Fwebsite%2Fuptime.json&label=website"></a>
+  <a href="https://crc-centre-recherche-conservation.github.io/manuspectrum-status/"><img alt="Response time" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FCRC-Centre-Recherche-Conservation%2Fmanuspectrum-status%2FHEAD%2Fapi%2Fwebsite%2Fresponse-time.json&label=response%20time"></a>
+  <a href="https://github.com/CRC-Centre-Recherche-Conservation/manuspectrum-status/issues?q=label%3Astatus"><img alt="Incidents" src="https://img.shields.io/github/issues/CRC-Centre-Recherche-Conservation/manuspectrum-status/status?label=open%20incidents"></a>
+</p>
 
-> I find Upptime an incredible clever usage of \[GitHub Actions]. You essentially get a free configurable uptime monitor for whatever you want. – [CSS Tricks](https://css-tricks.com/upptime/)
+### Current status: <!--live status--> **🟩 All systems operational**
 
-<details data-embed="anandchowdhary.com" data-title="Upptime" data-summary="Uptime monitor and status page powered by GitHub Actions">
-  <summary>Upptime is used by <strong>3,000+</strong> people and teams to ensure they know when their endpoints go down.</summary>
-
-I built Upptime because, like many developers, I needed an uptime monitor and status page for my startup Pabio that was affordable, flexible, and completely under my control. At the time, existing services felt expensive, rigid, or closed-source. GitHub Actions had just launched, and I thought: hmm... what if I turned Actions into a self-hosted uptime monitor?
-
-Upptime runs scheduled checks using GitHub Actions (as often as every 5 minutes) to ping your endpoints and verify they're online. Response time data is recorded and committed to git, enabling long-term trend charts and historical insights. When downtime is detected, GitHub Issues are automatically opened and closed. A status page built with Svelte is hosted via GitHub Pages and shows uptime, response times, and incident history - so you get the full-stack uptime monitor and status page.
-
-I built it to be completely free if you're already using GitHub since there's no external server or subscription needed. All configuration lives in a single file, and your data is gone if you delete the repo. Plus, you get a git-native audit trail for all changes and events.
-
-Since launching, Upptime has grown to over 16,000 stars and is actively used by developers and teams to monitor their services. In fact, Upptime is used by [over 3,000+ people and teams](https://github.com/topics/upptime), including Ubuntu-maker Canonical and my preferred developer time tracker Wakatime.
-
-</details>
-
-<!--end: description-->
-
-[![Uptime CI](https://github.com/upptime/upptime/workflows/Uptime%20CI/badge.svg)](https://github.com/upptime/upptime/actions/workflows/uptime.yml)
-[![Response Time CI](https://github.com/upptime/upptime/workflows/Response%20Time%20CI/badge.svg)](https://github.com/upptime/upptime/actions/workflows/response-time.yml?query=workflow%3A%22Response+Time+CI%22)
-[![Graphs CI](https://github.com/upptime/upptime/workflows/Graphs%20CI/badge.svg)](https://github.com/upptime/upptime/actions/workflows/graphs.yml?query=workflow%3A%22Graphs+CI%22)
-[![Static Site CI](https://github.com/upptime/upptime/workflows/Static%20Site%20CI/badge.svg)](https://github.com/upptime/upptime/actions/workflows/site.yml?query=workflow%3A%22Static+Site+CI%22)
-[![Summary CI](https://github.com/upptime/upptime/workflows/Summary%20CI/badge.svg)](https://github.com/upptime/upptime/actions/workflows/summary.yml?query=workflow%3A%22Summary+CI%22)
-
-## [📈 Live Status](https://demo.upptime.js.org): <!--live status--> **🟩 All systems operational**
+**[Open the status page →](https://crc-centre-recherche-conservation.github.io/manuspectrum-status/)**
 
 <!--start: status pages-->
-<!-- This summary is generated by Upptime (https://github.com/upptime/upptime) -->
-<!-- Do not edit this manually, your changes will be overwritten -->
-<!-- prettier-ignore -->
-| URL | Status | History | Response Time | Uptime |
-| --- | ------ | ------- | ------------- | ------ |
-| <img alt="" src="https://icons.duckduckgo.com/ip3/www.google.com.ico" height="13"> [Google](https://www.google.com) | 🟩 Up | [google.yml](https://github.com/upptime/upptime/commits/HEAD/history/google.yml) | <details><summary><img alt="Response time graph" src="./graphs/google/response-time-week.png" height="20"> 99ms</summary><br><a href="https://demo.upptime.js.org/history/google"><img alt="Response time 122" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fgoogle%2Fresponse-time.json"></a><br><a href="https://demo.upptime.js.org/history/google"><img alt="24-hour response time 60" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fgoogle%2Fresponse-time-day.json"></a><br><a href="https://demo.upptime.js.org/history/google"><img alt="7-day response time 99" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fgoogle%2Fresponse-time-week.json"></a><br><a href="https://demo.upptime.js.org/history/google"><img alt="30-day response time 88" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fgoogle%2Fresponse-time-month.json"></a><br><a href="https://demo.upptime.js.org/history/google"><img alt="1-year response time 114" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fgoogle%2Fresponse-time-year.json"></a></details> | <details><summary><a href="https://demo.upptime.js.org/history/google">100.00%</a></summary><a href="https://demo.upptime.js.org/history/google"><img alt="All-time uptime 99.98%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fgoogle%2Fuptime.json"></a><br><a href="https://demo.upptime.js.org/history/google"><img alt="24-hour uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fgoogle%2Fuptime-day.json"></a><br><a href="https://demo.upptime.js.org/history/google"><img alt="7-day uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fgoogle%2Fuptime-week.json"></a><br><a href="https://demo.upptime.js.org/history/google"><img alt="30-day uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fgoogle%2Fuptime-month.json"></a><br><a href="https://demo.upptime.js.org/history/google"><img alt="1-year uptime 99.93%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fgoogle%2Fuptime-year.json"></a></details>
-| <img alt="" src="https://icons.duckduckgo.com/ip3/en.wikipedia.org.ico" height="13"> [Wikipedia](https://en.wikipedia.org) | 🟩 Up | [wikipedia.yml](https://github.com/upptime/upptime/commits/HEAD/history/wikipedia.yml) | <details><summary><img alt="Response time graph" src="./graphs/wikipedia/response-time-week.png" height="20"> 212ms</summary><br><a href="https://demo.upptime.js.org/history/wikipedia"><img alt="Response time 209" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fwikipedia%2Fresponse-time.json"></a><br><a href="https://demo.upptime.js.org/history/wikipedia"><img alt="24-hour response time 243" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fwikipedia%2Fresponse-time-day.json"></a><br><a href="https://demo.upptime.js.org/history/wikipedia"><img alt="7-day response time 212" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fwikipedia%2Fresponse-time-week.json"></a><br><a href="https://demo.upptime.js.org/history/wikipedia"><img alt="30-day response time 386" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fwikipedia%2Fresponse-time-month.json"></a><br><a href="https://demo.upptime.js.org/history/wikipedia"><img alt="1-year response time 209" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fwikipedia%2Fresponse-time-year.json"></a></details> | <details><summary><a href="https://demo.upptime.js.org/history/wikipedia">100.00%</a></summary><a href="https://demo.upptime.js.org/history/wikipedia"><img alt="All-time uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fwikipedia%2Fuptime.json"></a><br><a href="https://demo.upptime.js.org/history/wikipedia"><img alt="24-hour uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fwikipedia%2Fuptime-day.json"></a><br><a href="https://demo.upptime.js.org/history/wikipedia"><img alt="7-day uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fwikipedia%2Fuptime-week.json"></a><br><a href="https://demo.upptime.js.org/history/wikipedia"><img alt="30-day uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fwikipedia%2Fuptime-month.json"></a><br><a href="https://demo.upptime.js.org/history/wikipedia"><img alt="1-year uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fwikipedia%2Fuptime-year.json"></a></details>
-| <img alt="" src="https://icons.duckduckgo.com/ip3/news.ycombinator.com.ico" height="13"> [Hacker News](https://news.ycombinator.com) | 🟩 Up | [hacker-news.yml](https://github.com/upptime/upptime/commits/HEAD/history/hacker-news.yml) | <details><summary><img alt="Response time graph" src="./graphs/hacker-news/response-time-week.png" height="20"> 196ms</summary><br><a href="https://demo.upptime.js.org/history/hacker-news"><img alt="Response time 280" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fhacker-news%2Fresponse-time.json"></a><br><a href="https://demo.upptime.js.org/history/hacker-news"><img alt="24-hour response time 90" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fhacker-news%2Fresponse-time-day.json"></a><br><a href="https://demo.upptime.js.org/history/hacker-news"><img alt="7-day response time 196" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fhacker-news%2Fresponse-time-week.json"></a><br><a href="https://demo.upptime.js.org/history/hacker-news"><img alt="30-day response time 225" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fhacker-news%2Fresponse-time-month.json"></a><br><a href="https://demo.upptime.js.org/history/hacker-news"><img alt="1-year response time 269" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fhacker-news%2Fresponse-time-year.json"></a></details> | <details><summary><a href="https://demo.upptime.js.org/history/hacker-news">100.00%</a></summary><a href="https://demo.upptime.js.org/history/hacker-news"><img alt="All-time uptime 99.14%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fhacker-news%2Fuptime.json"></a><br><a href="https://demo.upptime.js.org/history/hacker-news"><img alt="24-hour uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fhacker-news%2Fuptime-day.json"></a><br><a href="https://demo.upptime.js.org/history/hacker-news"><img alt="7-day uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fhacker-news%2Fuptime-week.json"></a><br><a href="https://demo.upptime.js.org/history/hacker-news"><img alt="30-day uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fhacker-news%2Fuptime-month.json"></a><br><a href="https://demo.upptime.js.org/history/hacker-news"><img alt="1-year uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fhacker-news%2Fuptime-year.json"></a></details>
-| <img alt="" src="https://icons.duckduckgo.com/ip3/null.ico" height="13"> Secret Site | 🟩 Up | [secret-site.yml](https://github.com/upptime/upptime/commits/HEAD/history/secret-site.yml) | <details><summary><img alt="Response time graph" src="./graphs/secret-site/response-time-week.png" height="20"> 61ms</summary><br><a href="https://demo.upptime.js.org/history/secret-site"><img alt="Response time 47" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fsecret-site%2Fresponse-time.json"></a><br><a href="https://demo.upptime.js.org/history/secret-site"><img alt="24-hour response time 83" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fsecret-site%2Fresponse-time-day.json"></a><br><a href="https://demo.upptime.js.org/history/secret-site"><img alt="7-day response time 61" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fsecret-site%2Fresponse-time-week.json"></a><br><a href="https://demo.upptime.js.org/history/secret-site"><img alt="30-day response time 50" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fsecret-site%2Fresponse-time-month.json"></a><br><a href="https://demo.upptime.js.org/history/secret-site"><img alt="1-year response time 49" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fsecret-site%2Fresponse-time-year.json"></a></details> | <details><summary><a href="https://demo.upptime.js.org/history/secret-site">100.00%</a></summary><a href="https://demo.upptime.js.org/history/secret-site"><img alt="All-time uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fsecret-site%2Fuptime.json"></a><br><a href="https://demo.upptime.js.org/history/secret-site"><img alt="24-hour uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fsecret-site%2Fuptime-day.json"></a><br><a href="https://demo.upptime.js.org/history/secret-site"><img alt="7-day uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fsecret-site%2Fuptime-week.json"></a><br><a href="https://demo.upptime.js.org/history/secret-site"><img alt="30-day uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fsecret-site%2Fuptime-month.json"></a><br><a href="https://demo.upptime.js.org/history/secret-site"><img alt="1-year uptime 100.00%" src="https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2Fupptime%2Fupptime%2FHEAD%2Fapi%2Fsecret-site%2Fuptime-year.json"></a></details>
-
 <!--end: status pages-->
 
-<!--start: docs-->
+## About ManuSpectrum
 
-## ⭐ How it works
+[ManuSpectrum](https://manuspectrum.huma-num.fr/) is an open database of the physico-chemical analyses of medieval
+manuscripts (X-ray fluorescence and its imaging, reflectance and infrared spectroscopy, mass
+spectrometry), linked to the IIIF images of the folios they were made on. It is developed by the
+[Centre de Recherche sur la Conservation](https://crc.mnhn.fr/) (CNRS, MNHN, Ministère de la Culture), built on
+[Arches](https://www.archesproject.org/) and hosted by [Huma-Num](https://www.huma-num.fr/).
 
-- GitHub Actions is used as an uptime monitor
-  - Every 5 minutes, a workflow visits your website to make sure it's up
-  - Response time is recorded every 6 hours and committed to git
-  - Graphs of response time are generated every day
-- GitHub Issues is used for incident reports
-  - An issue is opened if an endpoint is down
-  - People from your team are assigned to the issue
-  - Incidents reports are posted as issue comments
-  - Issues are locked so non-members cannot comment on them
-  - Issues are closed automatically when your site comes back up
-  - Slack notifications are sent on updates
-- GitHub Pages is used for the status website
-  - A simple, beautiful, and accessible PWA is generated
-  - Built with Svelte and Sapper
-  - Fetches data from this repository using the GitHub API
+## What is checked
 
-_Upptime is not affiliated to or endorsed by GitHub._
+| Check | What it means | Degraded above |
+| --- | --- | --- |
+| **Website** | The home page answers (the language redirect is followed). | 15 s |
+| **Liveness** | The application server answers `/healthz`, a page with no dependency. | 5 s |
+| **TLS certificate** | The certificate is valid for more than 7 more days. | — |
 
-[![Screenshot of status website](https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/screenshot-status.png)](https://upptime.js.org)
+The probe runs every hour from GitHub's servers. The host has its own, finer monitoring (databases, search,
+image server, backups); this repository only answers one question from the outside: *can a visitor reach the site?*
 
-## 👩‍💻 [Documentation](https://upptime.js.org)
+## Incidents and maintenance
 
-1. [How it works](https://upptime.js.org/docs)
-1. [Getting started](https://upptime.js.org/docs/get-started)
-1. [Configuration](https://upptime.js.org/docs/configuration)
-1. [Triggers](https://upptime.js.org/docs/triggers)
-1. [Notifications](https://upptime.js.org/docs/notifications)
-1. [Badges](https://upptime.js.org/docs/badges)
-1. [Packages](https://upptime.js.org/docs/packages)
-1. [Contributing](https://upptime.js.org/docs/contributing)
-1. [Frequently Asked Questions](https://upptime.js.org/docs/faq)
+- When a check fails twice in a row, the probe opens an [issue](https://github.com/CRC-Centre-Recherche-Conservation/manuspectrum-status/issues?q=label%3Astatus)
+  and assigns the maintainers; it closes it when the site is back. The issues form the public incident history.
+- A planned update is announced beforehand with a
+  [maintenance issue](https://github.com/CRC-Centre-Recherche-Conservation/manuspectrum-status/issues/new?template=maintainance-event.md)
+  (label `maintenance`, start and end times, checks expected down). During that window a failed check is recorded
+  but opens no incident, and the status page shows the maintenance.
 
-### Concepts
+## How it works
 
-#### Issues as incidents
+The checks, the history (`history/`), the badges (`api/`), the graphs (`graphs/`) and the status page are produced by
+[Upptime](https://upptime.js.org/) with GitHub Actions, Issues and Pages, from a single configuration file,
+[`.upptimerc.yml`](./.upptimerc.yml). The workflows in `.github/workflows` are generated from it: edit the
+configuration, never the workflows.
 
-When the GitHub Actions workflow detects that one of your URLs is down, it automatically opens a GitHub issue ([example issue #67](https://github.com/upptime/upptime/issues/67)). You can add incident reports to this issue by adding comments. When your site comes back up, the issue will be closed automatically as well.
+## License
 
-<table>
-  <tr>
-    <td>
-      <img alt="Screenshot of GitHub issue" src="https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/screenshot-issue.png">
-    </td>
-    <td>
-      <img alt="Screenshot of incident page" src="https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/screenshot-incident.png">
-    </td>
-  </tr>
-</table>
-
-#### Commits for response time
-
-Four times per day, another workflow runs and records the response time of your websites. This data is committed to GitHub, so it's available in the commit history of each file ([example commit history](https://github.com/koj-co/upptime/commits/master/history/wikipedia.yml)). Then, the GitHub API is used to graph the response time history of each endpoint and to track when a site went down.
-
-<table>
-  <tr>
-    <td>
-      <img alt="Screenshot of GitHub commits" src="https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/screenshot-history.png">
-    </td>
-    <td>
-      <img alt="Screenshot of live status" src="https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/screenshot-live-status.png">
-    </td>
-  </tr>
-</table>
-<!--end: docs-->
-
-## 📄 License
-
-- Code: [MIT](./LICENSE) © [Anand Chowdhary](https://anandchowdhary.com)
-- Data in the `./history` directory: [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/)
+- Probe: [Upptime](https://github.com/upptime/upptime), [MIT](./LICENSE).
+- Data in `history/`: [Open Database License](https://opendatacommons.org/licenses/odbl/1-0/).
+- ManuSpectrum logo: © Centre de Recherche sur la Conservation.

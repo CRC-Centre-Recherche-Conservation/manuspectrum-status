@@ -1,31 +1,70 @@
-# Change these first
-owner: upptime # Your GitHub organization or username, where this repository lives
-repo: upptime # The name of this repository
+# ManuSpectrum external uptime probe. Every workflow under .github/workflows is
+# generated from this file by Upptime (Setup CI / Update Template CI): never
+# edit them by hand.
+owner: CRC-Centre-Recherche-Conservation
+repo: manuspectrum-status
+user-agent: CRC-Centre-Recherche-Conservation
+
+# Strict allowlist: no repository secret reaches the checks (the GitHub App key
+# is passed separately by the generated workflows).
+secrets: []
 
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Website
+    slug: website
+    # Follows the language redirect (302 -> /en/) and judges the final response.
+    url: https://manuspectrum.huma-num.fr/
+    icon: https://manuspectrum.huma-num.fr/static/favicons/favicon.ico
+    expectedStatusCodes: [200]
+    maxResponseTime: 15000
+  - name: Liveness
+    slug: healthz
+    url: https://manuspectrum.huma-num.fr/healthz
+    icon: https://manuspectrum.huma-num.fr/static/favicons/favicon.ico
+    expectedStatusCodes: [200]
+    maxResponseTime: 5000
+  - name: TLS certificate
+    slug: tls
+    # Down when the certificate expires within 7 days (or is unreachable).
+    check: ssl
+    url: manuspectrum.huma-num.fr
+    port: 443
+    icon: https://manuspectrum.huma-num.fr/static/favicons/favicon.ico
+
+# GitHub logins assigned to every status issue (notified by GitHub).
+assignees:
+  - rayondemiel
+
+# Repository metadata is set by hand; skipping it keeps the token without the
+# Administration permission.
+skipDescriptionUpdate: true
+skipTopicsUpdate: true
+skipHomepageUpdate: true
+skipPoweredByReadme: true
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  cname: demo.upptime.js.org
-  # baseUrl: /your-repo-name
-  logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
-  name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [GitHub repository](https://github.com/upptime/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/upptime/upptime)
+  baseUrl: /manuspectrum-status
+  name: ManuSpectrum status
+  logoUrl: https://manuspectrum.huma-num.fr/static/favicons/favicon.ico
+  introTitle: "Availability of **manuspectrum.huma-num.fr**, checked every hour from outside its host."
+  introMessage: "ManuSpectrum is the open database of physico-chemical analyses of medieval manuscripts of the Centre de Recherche sur la Conservation (CRC). Incidents are the issues of [this repository](https://github.com/$OWNER/$REPO); planned maintenance is announced here before it starts."
   navbar:
     - title: Status
       href: /
+    - title: ManuSpectrum
+      href: https://manuspectrum.huma-num.fr/
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
+  metaTags:
+    - name: robots
+      content: noindex
 
-# Upptime also supports notifications, assigning issues, and more
-# See https://upptime.js.org/docs/configuration
+# Cron in UTC, minutes off the hour (GitHub delays :00 schedules under load).
+workflowSchedule:
+  uptime: "23 * * * *"          # hourly
+  responseTime: "41 2 * * *"    # daily: response-time series (and the daily commit)
+  summary: "11 3 * * *"         # daily: README table, summary.json, badges
+  graphs: "31 3 * * 1"          # weekly (Monday)
+  staticSite: "51 3 * * 1"      # weekly, plus every push of assets/** and Setup CI
+  updateTemplate: "1 4 * * 1"   # weekly
+  updates: "21 4 * * 1"         # weekly
