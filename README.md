@@ -48,6 +48,7 @@ spectrometry), linked to the IIIF images of the folios they were made on. It is 
 | ------------------- | --------------------------------------------------------------------- | -------------- |
 | **Website**         | The home page answers (the language redirect is followed).            | 15 s           |
 | **Liveness**        | The application server answers `/healthz`, a page with no dependency. | 5 s            |
+| **IIIF image server** | One image of the corpus is served by the image server (`info.json`). | 15 s |
 | **TLS certificate** | The certificate is valid for more than 7 more days.                   | —              |
 
 The probe runs every hour from GitHub's servers. The host has its own, finer monitoring (databases, search,

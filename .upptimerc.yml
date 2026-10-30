@@ -31,6 +31,14 @@ sites:
     port: 443
     icon: https://manuspectrum.huma-num.fr/static/favicons/favicon.ico
 
+  - name: IIIF image server
+    slug: iiif
+    # info.json of one MS 59 maXRF map, served by Cantaloupe through nginx.
+    url: https://manuspectrum.huma-num.fr/iiifserver/iiif/2/Map_data-Ms59-f42-deconv-K-lim255.tif/info.json
+    icon: https://manuspectrum.huma-num.fr/static/favicons/favicon.ico
+    expectedStatusCodes: [200]
+    maxResponseTime: 15000
+
 # GitHub logins assigned to every status issue (notified by GitHub).
 assignees:
   - rayondemiel

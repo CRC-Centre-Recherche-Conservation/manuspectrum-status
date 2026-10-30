@@ -10,7 +10,7 @@ assignees: ''
 <!--
 start: 2026-11-12T23:00:00+01:00
 end: 2026-11-12T23:30:00+01:00
-expectedDown: website, healthz
+expectedDown: website, healthz, iiif
 -->
 
 **What and why**
